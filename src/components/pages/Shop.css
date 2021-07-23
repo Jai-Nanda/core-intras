@@ -1,0 +1,73 @@
+.start {
+  display: flex;
+  justify-content: center;
+  max-width: 85%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.shop {
+  color: var(--primary-color);
+  font-size: 3.5rem;
+  padding-bottom: 5px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 70px;
+}
+.text {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--secondary-color);
+  padding-top: 40px;
+}
+.cardflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 85%;
+  margin: auto;
+}
+.card {
+  margin: 10px;
+  width: 420px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 6px 6px 20px rgba(227, 162, 40, 0.2);
+  border: 3px solid var(--supporting-color);
+}
+.item_name {
+  font-size: 2.4rem;
+}
+.price {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+.shoe {
+  width: 200px;
+  height: 220px;
+}
+.shop_link {
+  text-decoration: none;
+  color: var(--supporting-color);
+}
+
+@media screen and (max-width: 960px) {
+  .start {
+    flex-direction: column;
+    margin: auto;
+  }
+  .cardflex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 100%;
+  }
+  .card {
+    width: 340px;
+  }
+}

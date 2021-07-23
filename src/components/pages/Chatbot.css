@@ -1,0 +1,16 @@
+.chati {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+.chatbot {
+  width: 100%;
+  height: 510px;
+  border: none;
+}
+
+@media screen and (max-width: 960px) {
+  .chati {
+    margin-bottom: 40px;
+  }
+}
